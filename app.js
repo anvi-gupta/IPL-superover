@@ -28,7 +28,7 @@ function updateScore() {
 function gameOver(){
     gameOverAudio.play();
     if(team1Score>team2Score) alert("MI wins!!!");
-    if(team2Score>team1Score) alert("DC wins!!!");
+    if(team2Score>team1Score) alert("CSK wins!!!");
     if(team1Score===team2Score) alert("Its another Superover!");
 }
 resetButton.onclick=()=>{
